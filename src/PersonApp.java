@@ -3,14 +3,13 @@ public class PersonApp {
 
         /* Contoh Object */
 
-        var person1 = new Person();
-        Person person2 = new Person();
-        Person person3;
-        person3 = new Person();
+        var person = new Person();
+        person.name = "Adrian";
+        person.address = "Bandung";
+        //person.country = "Tidak Bisa Diubah";
 
-
-        System.out.println(person1);
-        System.out.println(person2);
-        System.out.println(person3);
+        System.out.println(person.name);
+        System.out.println(person.address);
+        System.out.println(person.country);
     }
 }
